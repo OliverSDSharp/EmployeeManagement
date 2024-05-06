@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc src/index.ts",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "build.cmd": "tsc cli.ts",
+    "cmd": "node cli.js"
   },
   "keywords": [],
   "author": "",
